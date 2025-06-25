@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome file</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__html"><h1 id="data-science-job-market-analysis">Data Science Job Market Analysis</h1>
+<h2 id="description">Description</h2>
+<p>This project leverages Databricks and MongoDB to analyze data science job postings, identifying key trends in job skills, postings, and summaries. Insights gained aim to provide an overview of the current demand in the tech industry.</p>
+<h2 id="prerequisites">Prerequisites</h2>
+<p>Before you begin, ensure you have the following:</p>
+<ul>
+<li>Databricks account</li>
+<li>MongoDB account with data</li>
+<li>PySpark setup in Databricks</li>
+<li>MongoDB Spark Connector installed</li>
+</ul>
+<h2 id="setup-instructions">Setup Instructions</h2>
+<h3 id="step-1-create-and-configure-databricks-cluster">Step 1: Create and Configure Databricks Cluster</h3>
+<ol>
+<li>Log in to your Databricks account.</li>
+<li>Navigate to the ‘Clusters’ section and click ‘Create Cluster’.</li>
+<li>Choose the Databricks Runtime Version that includes Apache Spark and is compatible with the MongoDB Spark Connector.</li>
+<li>Set the cluster mode to ‘Standard’ or ‘High Concurrency’.</li>
+<li>Adjust the Worker and Driver type based on computational needs.</li>
+<li>Start the cluster.</li>
+</ol>
+<h3 id="step-2-install-mongodb-spark-connector">Step 2: Install MongoDB Spark Connector</h3>
+<ol>
+<li>Go to ‘Libraries’ under your cluster’s options.</li>
+<li>Click ‘Install New’ then select ‘Maven’.</li>
+<li>Search for and select the MongoDB Spark Connector using Maven coordinates:<pre class=" language-plaintext"><code class="prism  language-plaintext">org.mongodb.spark:mongo-spark-connector_2.12:3.0.1
+</code></pre>
+</li>
+<li>Install the library and ensure it attaches to your cluster.</li>
+</ol>
+<h3 id="additional-information-on-notebooks">Additional Information on Notebooks</h3>
+<ol>
+<li>AIT614_FinalProject_Team7 notebook: Contains some data analysis of the dataset.</li>
+<li>EDA Notebook: Contains detailed exploratory data analysis of the project.</li>
+</ol>
+<h3 id="step-3-import-and-run-the-project-notebook">Step 3: Import and Run the Project Notebook</h3>
+<ol>
+<li>Download the project notebook ZIP file to your local system.</li>
+<li>Navigate to the ‘Workspace’ area in Databricks.</li>
+<li>Right-click the workspace folder, select ‘Import’, and choose the ZIP file.</li>
+<li>Confirm the upload to import your project notebook.</li>
+<li>Open the notebook titled ‘AIT614_FinalProject_Team7’ or ‘EDA’.</li>
+<li>Attach the notebook to the cluster where the MongoDB Spark Connector is installed.</li>
+<li>Execute the code cell by cell, following any additional instructions within the notebook.</li>
+</ol>
+<h3 id="step-5-access-the-tableau-dashboard">Step 5: Access the Tableau Dashboard</h3>
+<p>To view the visualizations created for this project, follow the link to the Tableau Public<br>
+dashboard:</p>
+<h3 id="view-tableau-dashboard">View Tableau Dashboard</h3>
+<p>1.This dashboard provides a graphical representation of key findings from the data analysis.</p>
+<h3 id="usage">Usage</h3>
+<p>Execute the notebooks in the Databricks workspace, which contain scripts for loading data from MongoDB, processing, and analyzing it. Documentation within each notebook guides through data ingestion, cleaning, analysis, and visualization tasks.</p>
+<h2 id="authors">Authors</h2>
+<ol>
+<li>Nithish Bilasunur Manjunatha Reddy</li>
+<li>Rakesh Somukalahalli</li>
+<li>Pritham Mahajan</li>
+<li>Sriram Dubusai</li>
+</ol>
+</div>
+</body>
+
+</html>
